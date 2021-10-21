@@ -1,0 +1,273 @@
+{
+  "steps": {
+    "prescription": {
+      "title": "Add your prescription values",
+      "description": "Or we will suggest the right lens for your vision need, so you can go hussle free"
+    },
+    "advancedPrescription": {
+      "title": "Do you have a prescription?",
+      "manual": {
+        "title": "Enter your prescription",
+        "card": {
+          "title": "Enter it manually",
+          "description": "This is our quickest and most popular method. We will then recommend the most suitable lens type."
+        },
+        "subtitle": "Add your prescription values and we'll recommend the best lens for your vision needs.",
+        "rightEye": {
+          "initials": "OD",
+          "name": "(Right eye)"
+        },
+        "leftEye": {
+          "initials": "OS",
+          "name": "(Left eye)"
+        },
+        "sphere": "Sphere (SPH)",
+        "cylinder": "Cylinder (CYL)",
+        "axis": "Axis",
+        "add": "ADD",
+        "vertical": "Vertical (Δ)",
+        "baseDirection": "Base Direction",
+        "horizontal": "Horizontal (Δ)",
+        "pupillaryDistance": "PD (Pupillary distance)",
+        "pdLeft": "Left",
+        "pdRight": "Right",
+        "iHaveTwoPd": "I have 2 PD numbers",
+        "applyButton": "Continue",
+        "howToRead": "How to read your prescription",
+        "whatIsIt": "What is it?",
+        "pupillaryDistanceWarningTooltip": "Provide text for this tooltip",
+        "moreOptions": "More options",
+        "alerts": {
+          "axisRangeError": "The AXIS values you’ve inserted are not correct! These values must be between 1 and 180.",
+          "axisZeroError": "The AXIS values you’ve inserted are not correct! If CYL value is higher or lower than 0, AXIS values can’t be 0.",
+          "sphPositiveNegativeWarning": "You’ve inserted 1 positive and 1 negative value, which is very rare. We suggest double checking your prescription. If this is correct, you can proceed.",
+          "pdSmallerThanAverageWarning": "The selected PD is smaller than average, we suggest double checking your prescription. If you don’t have the PD here how to measure it",
+          "missingValues": "Complete the missing values",
+          "requiredToProceed": "This is required to proceed",
+          "incompatibleWithPrescriptionTitle": "Sorry! The frame you’ve chosen isn’t compatible with your prescription",
+          "incompatibleWithPrescriptionBody": "but don’t worry, compatible frames are available",
+          "shopCompatible": "Shop compatible frames",
+          "clearAll": "Clear all",
+          "agreementText": "By clicking this box, I confirm that the prescription values entered above are taken from a valid (not expired) prescription issued to me, signed by a licensed optometrist or ophthalmologist."
+        },
+        "continueModal": {
+          "title": "Send prescription later",
+          "message": "By clicking on continue, you will be skipping the prescription step. We’ll ask for it after your order, either by uploading it or having us call your doctor.",
+          "continue": "Yes, continue",
+          "cancel": "No, go back"
+        }
+      },
+      "account": {
+        "card": {
+          "title": "Get it from my account",
+          "description": "Log in and select your prescription."
+        }
+      },
+      "upload": {
+        "title": "Your prescription",
+        "subtitle": "Before submitting your prescription, please check the expiration date to make sure it's still valid.",
+        "card": {
+          "title": "Upload it now",
+          "description": "And we'll take care of the rest. We accept the following file formats: .pdf, .png, .jpeg, .gif, .tiff, .bmp, .docx (max10MB) and IWork pages"
+        }
+      },
+      "doctor": {
+        "title": "Add your doctor details",
+        "subtitle": "We'll get your prescription details directly from him/her",
+        "searchBy": "Search your eye doctor by",
+        "card": {
+          "title": "Call my doctor",
+          "description": "We'll get your prescription directly from him/her."
+        }
+      },
+      "later": {
+        "card": {
+          "title": "Send it later",
+          "description": "We'll ask for it after you order, either by uploading it or having us call your doctor."
+        }
+      }
+    },
+    "type": {
+      "title": "Choose your vision need",
+      "confirmedTitle": "Vision need:",
+      "prescriptionTitle": "Or",
+      "addToCart": "Add to cart",
+      "moreInfo": "More info"
+    },
+    "brand": {
+      "title": "Choose your lens brand",
+      "confirmedTitle": "Lens brand:"
+    },
+    "treatmentsFamily": {
+      "confirmedTitle": "Lens type:",
+      "title": "Choose your lens type",
+      "subtitle": "Your glasses will come with best in class Ray-Ban technology. Scratch resistant and UV protection are included.",
+      "blueLight": {
+        "title": "Blue-light filtering",
+        "description": "Reduces exposure to blue light from digital screens, which can help prevent eye-fatigue.",
+        "imageFileName": ""
+      },
+      "transition": {
+        "title": "Transition ® Signature ® GEN 8™",
+        "description": "One pair for indoors and outdoors with Transitions® lenses: quickly darken and fade to clear, so you never have to change glasses.",
+        "imageFileName": ""
+      },
+      "clear": {
+        "title": "Clear",
+        "description": "Traditional, transparent lenses perfect for everyday use",
+        "imageFileName": ""
+      },
+      "sun": {
+        "title": "Sun",
+        "description": "Choose from different lens colors and tints.",
+        "imageFileName": ""
+      }
+    },
+    "gvpTreatment": {
+      "title": "Choose your Great Value Package",
+      "subtitle": "Your glasses will come with best in class LensCrafters technology.",
+      "confirmedTitle": "Lens Package:"
+    },
+    "thickness": {
+      "confirmedTitle": "Thickness:",
+      "title": "Choose your lens thickness",
+      "subtitle": "Your glasses will come with best in class Ray-Ban technology. Scratch resistant and UV protection are included."
+    },
+    "treatments": {
+      "addToBag": "Add to bag",
+      "title": "Choose your light responsive treatment",
+      "subtitle": "Your glasses will come with best in class Ray-Ban technology. Scratch-resistant treatment  and UV protection are included.",
+      "confirmedTitle": "Treatment:",
+      "extraTreatments": {
+        "antiScratch": {
+          "name": "Anti-scratch",
+          "title": "Scratch resistant"
+        },
+        "antiReflective": {
+          "value": "Anti-reflective"
+        },
+        "uvProtection": {
+          "title": "UV Protection"
+        }
+      }
+    },
+    "transitionColor": {
+      "title": "TransitionColor"
+    },
+    "lensColor": {
+      "confirmedTitle": "Color:",
+      "detailBox": {
+        "lightTransmission": "Light Transmission",
+        "lightConditions": "Light conditions",
+        "contrast": "Contrast",
+        "baseLensColor": "Base Lens Color"
+      },
+      "categories": {
+        "Ugly category": {
+          "title": "Ugly Category"
+        },
+        "Cool category": {
+          "title": "Cool Category"
+        }
+      }
+    },
+    "color": {
+      "confirmedTitle": "Color:",
+      "title": "Choose your lens color",
+      "titleMobile": "Choose your lens color",
+      "titleDesignTypeLayout": "Choose your lens technology ",
+      "titleColorCategoryLayout": "Choose your lens type",
+      "polarized": "Polarized only",
+      "applyAndContinue": "Apply",
+      "subtitle": "Enhanced color and contrast so you can see more detail",
+      "tooltip": {
+        "switch": "Reduces glare in extra bright light, for superior clarity and protection of the eye.",
+        "polarized": "Reduces glare in extra bright light, for superior clarity and protection of the eye."
+      }
+    },
+    "addOns": {
+      "confirmedTitle": "Complete your lenses",
+      "label": "Already included in your lens",
+      "title": "Complete your lenses",
+      "reviewTitle": "Finishings",
+      "subtitle": "Your glasses will come with best in class Ray-Ban technology. Scratch-resistant and UV protection are included."
+    },
+    "review": {
+      "title": "Review your selections",
+      "subtitle": "Your glasses will come with best in class Ray-Ban technology.",
+      "discountTitle": "40% off prescription lenses is automatically applied",
+      "firstLineReview": "Frame:",
+      "paymentInstallments": {
+        "installmentsLabel": "Pay over time in interest-free installments with ###INSTALLMENTS###",
+        "modal": {
+          "title": "Paying in installments",
+          "subtitle": "Want to spread out the cost of your order with ###BRAND###? \n Select ###INSTALLMENTS### as your payment method at checkout \n to pay in interest-free installments, with no hidden fees.",
+          "affirm": "With Affirm, make 3 interest-free payments every two weeks with zero hidden fees. Payment options are offered by Affirm, are subject to an eligibility check, and may not be available in all states. CA residents: Loans by Affirm Loan Services, LLC are made or arranged pursuant to a California Finance Lender license.",
+          "afterpay": "With Afterpay, make 4 interest-free payments, every two weeks. You must be over 18, a resident of the U.S., and meet additional eligibility criteria to qualify. Late fees may apply. Click here for complete terms. Loans to California residents made or arranged are pursuant to a California Finance Lenders Law license."
+        }
+      },
+      "insuranceButtonLabel": "Add insurance benefits",
+      "insuranceButtonLabelRemove": "Remove insurance benefits",
+      "oneYearCoverageAdd": "Add",
+      "tooltip": "Ensure your eyewear with an extended warranty for unlimited repair and replacement at any LensCrafters store."
+    }
+  },
+  "prescription": {
+    "toggleLabel": "Add your prescription values, we’ll help you find the perfect lens for your vision needs.",
+    "prescriptionTitle": "Add your prescription values, we’ll show you the perfect lens for your vision needs.",
+    "rightEye": "(Right eye)",
+    "rightEyeInitials": "OD",
+    "leftEye": "(Left eye)",
+    "leftEyeInitials": "OS",
+    "readPrescription": "How to read your prescription",
+    "addLabel": "I also have an ADD value",
+    "applyButton": "Apply & continue",
+    "submitButton": "Submit",
+    "clearButton": "Clear all",
+    "skipButton": "Skip for now",
+    "compatibleFramesButton": "Shop compatible frames",
+    "doctorDetails": "We'll ask for a copy of your prescription or doctor's details during or after checkout",
+    "missingValueError": "Add your values to continue",
+    "positiveNegativeError": "You've entered one positive value and one negative value, which is quite rare. We suggest double checking your prescription.",
+    "compatibleFrameError": "Sorry! The frame you've chosen isn't compatible with your prescription.",
+    "compatibleFrameSubLabel": "But don't worry, compatible frames are available.",
+    "axisError": "Remember to add your AXIS values",
+    "axisSubError": "These values must be between 0 and 180.",
+    "axisSubErrorZero": "If CYL value is higher or lower than 0, AXIS values can’t be 0.",
+    "editLabel": "Edit prescription",
+    "pdHelp": "What is this?",
+    "twoPDNumbers": "I have two PD values",
+    "missingInputMessage": "Add your missing values to complete the upload of your prescription and we'll recommend the most suitable lens.",
+    "defaultInputMessage": "Choose to add your prescription now or upload it later.",
+    "skipMessage": "",
+    "readyMessage": "We are now able to suggest the right lens for you!",
+    "bestPrescription": "Best for your prescription",
+    "proceedCheckbox": "By clicking this box, I confirm that the prescription values entered above are taken from a unexpired written prescription issued to me, signed by a licensed optometrist or ophthalmologist.",
+    "proceedCheckboxError": "Required to proceed"
+  },
+  "price": {
+    "totalFrameLens": {
+      "frameLensTotal": "Frame + lenses price",
+      "frame": "Frame price",
+      "total": "Total"
+    },
+    "free": "Free",
+    "included": "Included",
+    "frameLensStartingAt": "Frame + Lenses at",
+    "frameLens": "Frame + Lenses",
+    "startingAt": "Starting at"
+  },
+  "noTreatment": "No treatment",
+  "learnMoreMade": "See how it's made",
+  "learnMoreTreatment": "See the treatment",
+  "exitTitle": "Are you sure you want to exit?",
+  "exitSubtitle": "Your lens selection will not be saved",
+  "exitYes": "Yes, exit",
+  "exitContinueEditing": "No, continue",
+  "exitSave": "Save and continue shopping",
+  "insuranceButtonLabel": "Add insurance benefits",
+  "insuranceButtonLabelRemove": "Remove insurance benefits",
+  "insuranceSyncedLabel": "Insurance is synced",
+  "applyingInsurance": "Applying insurance benefits",
+  "frameSize": "Frame size"
+}

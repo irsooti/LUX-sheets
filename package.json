@@ -1,0 +1,16 @@
+{
+  "name": "lux-sheets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "csv-reader": "^1.0.8",
+    "lodash": "^4.17.21"
+  },
+  "scripts": {
+    "translate": "node index"
+  },
+  "keywords": [],
+  "author": "Daniele Irsuti",
+  "license": "ISC"
+}
